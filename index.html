@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoflex | Silicon-cups</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link
+        href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@300,400,500,700,800&f[]=synonym@300,400,500,700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- MY NAV-BAR -->
+    <nav
+        class="flex justify-between items-center py-3 px-3 border-b border-(--green-muted) fixed w-full bg-(--off-white) z-10 lg:hidden">
+        <div class="flex items-center gap-1">
+            <div class="w-10">
+                <img src="images/logo.png" alt="logo" class="w-full">
+            </div>
+            <p class="text-2xl font-header text-(--green-dark) font-black">ecoflex</p>
+        </div>
+        <div id="menu-btn" class="cursor-pointer">
+            <i data-lucide="menu" class="text-(--green-dark) w-6 h-6"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu"
+        class="fixed top-20 left-0 w-full bg-(--off-white) border-b border-(--green-muted) z-10 flex flex-col px-6 py-4 gap-5 lg:hidden translate-x-full transition-transform duration-300">
+        <a href="#features"
+            class="text-(--green-dark) font-body font-semibold text-sm uppercase tracking-wider">Features</a>
+        <a href="#pricing"
+            class="text-(--green-dark) font-body font-semibold text-sm uppercase tracking-wider">Pricing</a>
+        <a href="#gallery"
+            class="text-(--green-dark) font-body font-semibold text-sm uppercase tracking-wider">Gallery</a>
+        <a href="#mission" class="text-(--green-dark) font-body font-semibold text-sm uppercase tracking-wider">Our
+            Mission</a>
+        <a href="#customize"
+            class="text-(--green-dark) font-body font-semibold text-sm uppercase tracking-wider">Customize</a>
+        <a href="#order"
+            class="btn-primary text-center text-sm bg-(--green-pale) border border-(--green-dark) rounded-4xl w-fit font-semibold mx-auto px-3 py-2 font-body text-(--green-dark)">Order
+            Now</a>
+    </div>
+
+    <!-- LAPPY NAV BAR -->
+    <nav class="fixed w-full border border-(--green-light) py-3 px-8 z-10 bg-(--off-white) hidden lg:flex">
+        <div class="flex justify-between  w-full">
+            <div class="flex items-center gap-1">
+                <div class="w-10">
+                    <img src="images/logo.png" alt="logo" class="w-full">
+                </div>
+                <p class="text-2xl font-header text-(--green-dark) font-black">ecoflex</p>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="#features" class="text-(--green-dark) text-lg font-medium font-body">Features</a>
+                <a href="#pricing" class="text-(--green-dark) text-lg font-medium font-body">Pricing</a>
+                <a href="#gallery" class="text-(--green-dark) text-lg font-medium font-body">Gallery</a>
+                <a href="#mission" class="text-(--green-dark) text-lg font-medium font-body">Mission</a>
+                <a href="#customize" class="text-(--green-dark) text-lg font-medium font-body">Customize</a>
+                <a href="#order" class="text-(--green-dark) text-lg font-medium font-body">Order</a>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF MY NAV-BAR -->
+
+
+    <!-- MAIN SECTION -->
+    <main>
+        <div class="pt-20">
+            <div class="w-full h-fit relative lg:flex lg:items-center lg:flex-row-reverse lg:px-10 lg:py-10">
+                <div class="w-full lg:w-[45%]">
+                    <video src="videos/VID-20260603-WA0039.mp4" autoplay muted playsinline loop
+                        class="w-full h-full brightness-60 lg:rounded-xl"></video>
+                </div>
+                <div class=" w-full lg:w-[55%] pt-4 lg:pt-0 ">
+                    <div
+                        class="flex mx-auto  items-center gap-1 py-1.5 px-3 w-fit h-fit rounded-4xl lg:mx-0 glass-card animate-pulse" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="w-2 h-2 rounded-full bg-(--green-light) shrink-0"></div>
+                        <p class="font-body uppercase text-sm text-center text-(--green-dark) font-black">Now available
+                            in Nigeria</p>
+                    </div>
+                    <h2
+                        class=" text-center text-(--green-dark) font-extrabold font-header clamp italic  lg:text-left pt-3" data-aos="fade-up"  data-aos-duration="1200">
+                        The Cup That
+                        Goes <span class="text-(--green-mid)">Everywhere</span> You Go</h2>
+                    <p
+                        class="text-(--text-light) pt-3 text-center block text-[16px] md:text-[20px] md:mx-auto md:w-[65%] lg:text-left lg:w-[71%] font-header lg:mx-0" data-aos="fade-up"  data-aos-duration="1200">
+                        Collapsible.
+                        Durable. Eco-friendly. The Ecoflex Silicon Cup fits in your pocket, survives the drop, and lasts
+                        a lifetime. Available in multiple colors.</p>
+                    <div class="flex justify-center items-center pt-7 gap-3 flex-col md:flex-row lg:justify-start">
+                        <div
+                            class="flex items-center text-(--off-white) bg-(--green-dark) border rounded-3xl py-2 px-4 gap-3 flex-row-reverse" data-aos="fade-up"  data-aos-duration="1200">
+                            <!-- <i data-lucide="shopping-cart" class="text-(--green-pale) font-medium"></i> -->
+                            <i data-lucide="chevrons-down" class="text-(--green-pale) font-medium"></i>
+                            <!-- <a href="" class="font-body font-medium ">Order Retail - ₦1,500</a> -->
+                            <a href="#gallery" class="font-body font-medium">
+                                Explore the Cups
+                            </a>
+                        </div>
+                        <div
+                            class="flex items-center bg-transparent border border-(--green-dark) rounded-3xl py-2 px-4 gap-3 flex-row-reverse" data-aos="fade-up"  data-aos-duration="1200">
+                            <!-- <i data-lucide="package" class="text-(--green-dark) font-medium"></i> -->
+                            <i data-lucide="arrow-right" class="text-(--green-dark) font-medium"></i>
+                            <!-- <a href="" class="text-(--green-dark) font-medium font-body">Buy in Bulk - ₦1,300</a> -->
+                            <a href="#mission" class="text-(--green-dark) font-medium font-body">
+                                Why Nigeria Needs This
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div
+        class="bg-(--green-dark) py-4 px-3 flex flex-wrap gap-12 w-[85%] mx-auto justify-center items-center rounded-3xl mt-10 lg:justify-between  lg:px-20 lg:py-4 lg:w-[90%] lg:rounded-xl" data-aos="fade-up"  data-aos-duration="1200">
+        <div class="flex flex-col justify-center " >
+            <p class="text-2xl text-(--off-white) text-center numbers">100,000 +</p>
+            <p class="uppercase text-[12px] text-center font-body text-(--off-white)">units available</p>
+        </div>
+        <div class="flex flex-col ">
+            <p class="text-2xl text-(--off-white) text-center numbers">₦1,500</p>
+            <p class="uppercase text-[12px] text-center font-body text-(--off-white)">retail price</p>
+        </div>
+        <div class="flex flex-col">
+            <p class="text-2xl text-(--off-white) text-center numbers">₦1,300</p>
+            <p class="uppercase text-[12px] text-center font-body text-(--off-white)">bulk (20pcs+)</p>
+        </div>
+        <div class="flex flex-col">
+            <p class="text-2xl text-(--off-white) text-center numbers">100%</p>
+            <p class="uppercase text-[12px] text-center font-body text-(--off-white)">Food-safe <br> Silicone</p>
+        </div>
+    </div>
+    <!-- END OF MAIN SECTION -->
+
+
+    <!-- CARDS SECTION -->
+    <div class="pt-20" id="features" >
+        <div data-aos="fade-up"  data-aos-duration="1200">
+            <p class="font-header text-[16px] font-semibold text-(--green-light) text-center">Why Ecoflex</p>
+        </div>
+        <div data-aos="fade-up"  data-aos-duration="1200">
+            <h2 class="font-body text-2xl text-(--green-dark) font-extrabold text-center p-2 md:text-5xl">
+                Built Different. Built to Last.</h2>
+        </div>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6 px-6 md:px-8 lg:px-12 mt-13">
+            <div
+                class="flex flex-col gap-6 justify-center items-center py-6 px-4 bg-(--green-pale) border-2 border-(--green-muted) rounded-3xl w-[95%] mx-auto" data-aos="fade-up"  data-aos-duration="1200">
+                <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-(--green-muted)">
+                    <i data-lucide="leaf" class="w-6 h-6 text-(--green-mid)"></i>
+                </div>
+                <p class="text-xl font-body font-semibold text-(--green-dark)">Eco-Friendly Silicone</p>
+                <p class="text-center font-body text-(--text-light)">Made from 100% food-grade silicone. Safe for hot
+                    and
+                    cold drinks, no plastic waste.</p>
+            </div>
+
+            <div
+                class="flex flex-col gap-6 justify-center items-center py-6 px-4 bg-(--green-pale) border-2 border-(--green-muted) rounded-3xl w-[95%] mx-auto" data-aos="fade-up"  data-aos-duration="1200">
+                <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-(--green-muted)">
+                    <i data-lucide="minimize-2" class="w-6 h-6 text-(--green-mid)"></i>
+                </div>
+                <p class="text-xl font-body font-semibold text-(--green-dark)">Fully Collapsible</p>
+                <p class="text-center font-body text-(--text-light)">Folds flat in seconds. Fits in your pocket, bag, or
+                    glove compartment. Always ready.</p>
+            </div>
+
+            <div
+                class="flex flex-col gap-6 justify-center items-center py-6 px-4 bg-(--green-pale) border-2 border-(--green-muted) rounded-3xl w-[95%] mx-auto "data-aos="fade-up"  data-aos-duration="1200">
+                <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-(--green-muted)"">
+                    <i data-lucide="droplets" class="w-6 h-6 text-(--green-mid)"></i>
+                </div>
+                <p class="text-xl font-body font-semibold text-(--green-dark)">Leak-Proof Design</p>
+                <p class="text-center font-body text-(--text-light)">Tight-seal lid keeps your drink in. No spills, no
+                    stress on the road or at your desk.</p>
+            </div>
+
+            <div
+                class="flex flex-col gap-6 justify-center items-center py-6 px-4 bg-(--green-pale) border-2 border-(--green-muted) rounded-3xl w-[95%] mx-auto" data-aos="fade-up"  data-aos-duration="1200">
+                <div class="w-14 h-14 rounded-2xl flex items-center justify-center bg-(--green-muted)">
+                    <i data-lucide="palette" class="w-6 h-6 text-(--green-mid)"></i>
+                </div>
+                <p class="text-xl font-body font-semibold text-(--green-dark)">Multiple Colors</p>
+                <p class="text-center font-body text-(--text-light)">Available in green, blue, pink, grey, and more.
+                    Pick your vibe or mix for events.</p>
+            </div>
+        </div>
+    </div>
+    <!-- END OF CARDS SECTION -->
+
+
+    <!-- PRICING SECTION -->
+    <div id="pricing">
+        <p class="uppercase text-lg text-(--green-light) text-center font-semibold text-[16px] mt-20 font-body" data-aos="fade-up"  data-aos-duration="1200">Simple
+            Pricing</p>
+        <h2 class="uppercase text-(--green-dark) text-xl text-center font-black font-header p-5" data-aos="fade-up"  data-aos-duration="1200">For everyone. For every
+            scale.</h2>
+
+        <div class="flex flex-col items-center gap-5 mt-5 md:flex-row lg:w-[70%] md:w-[97%] md:mx-auto">
+            <div
+                class="bg-(--off-white) border-2 border-(--green-muted) w-[85%] mx-auto rounded-3xl py-10 px-10 flex flex-col gap-5 items-center" data-aos="fade-up"  data-aos-duration="1200">
+                <p class="text-[13px] text-(--green-mid) font-bold text-center uppercase">Retail Price</p>
+                <div>
+                    <h2 class="text-5xl text-(--green-dark) font-bold text-center numbers">₦1,500</h2>
+                    <p class="text-sm text-(--green-mid) text-center pt-1">per piece</p>
+                </div>
+                <p class="text-[12px] text-(--green-mid) text-center bg-(--green-muted) rounded-md py-2 px-5">Perfect
+                    for personal use or gifting</p>
+                <div class="flex justify-center">
+                    <div
+                        class="bg-(--green-dark) text-(--off-white) border rounded-3xl py-3 px-16 text-sm font-body font-medium cursor-pointer">
+                        <a href="">Order on whatsapp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-(--green-dark) border border-(--grren-dark) w-[85%] mx-auto rounded-3xl py-10 px-10 flex flex-col gap-5 items-center" data-aos="fade-up"  data-aos-duration="1200">
+                <p class="text-[13px] text-(--green-light) font-bold text-center">BULK</p>
+                <div>
+                    <h2 class="text-5xl text-(--off-white) font-bold text-center numbers">₦1,300</h2>
+                    <p class="text-sm text-(--off-white) text-center pt-1">per piece . 20 pcs minimuim</p>
+                </div>
+                <p class="text-[12px] text-(--green-mid) text-center bg-(--green-pale) rounded-md py-2 px-5">ideal for
+                    resellers ,events and offices</p>
+                <div class="flex justify-center">
+                    <div
+                        class="bg-(--off-white) text-(--green-dark) border rounded-3xl py-3 px-16 text-sm font-body font-medium cursor-pointer">
+                        <a href="">Order on whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF PRICING SECTION -->
+
+        <!-- OUR MISSION  -->
+        <div class="bg-(--green-dark) py-10 flex flex-col-reverse items-center my-15 px-3 gap-4 md:flex-row lg:gap-20 lg:px-20 lg:py-15 lg:my-25 md:px-6 md:py-10 md:gap-12"
+            id="mission" data-aos="fade-up"  data-aos-duration="1200">
+            <div class="w-[93%] mx-auto md:w-650 lg:h-full" data-aos="fade-up" data-aos-duration="1200">
+                <video src="videos/our mission.mp4" class="w-full rounded-xl" controls></video>
+            </div>
+            <div class="">
+                <h2 class="text-3xl text-(--off-white) font-header text-center font-black lg:text-4xl md:text-[25px]" data-aos="fade-up"  data-aos-duration="1200">
+                    The World Is Changing. Your Cup Should Too.</h2>
+                <p class="text-[13px] text-(--green-pale) text-justify mt-4 font-body lg:text-[16px] md:text[13px]" data-aos="fade-up"  data-aos-duration="1200">
+                    Lagos generates between 13,000 and 15,000 metric tonnes of waste daily, with a significant portion
+                    coming from single-use plastics materials that take up to 500 years to degrade. The styrofoam
+                    takeaway containers you see everywhere clogging drainages, floating in the lagoon, burning by
+                    roadsides are now officially banned. Punch
+                    The Lagos State Government began by banning styrofoam food packs in 2024 and announced a complete
+                    phase-out of all single-use plastics within 12 months, with full enforcement commencing July 1,
+                    2025. Any company that fails to adhere to the ban faces prosecution and being sealed off. Vanguard
+                    NewsChannels Television
+                    This isn't a trend. It's a policy with teeth. And the question now isn't whether to change it's
+                    what you'll change to.
+                    That's where Ecoflex comes in. Our collapsible silicone cups are reusable, food-safe, pocket-sized,
+                    and built for everyday Nigerian life. One cup. Endless refills. Zero plastic guilt.
+                    The future is reusable. We made it affordable.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- PRODUCT GALLERY -->
+        <div class=" mt-20 px-6" id="gallery">
+            <div class="mb-10">
+                <p class="font-header text-[16px] font-semibold text-(--green-light) text-center" data-aos="fade-up"  data-aos-duration="1200">Product Gallery
+                </p>
+                <h2 class="font-body text-2xl text-(--green-dark) font-extrabold text-center p-2 md:text-5xl" data-aos="fade-up"  data-aos-duration="1200">See
+                    It. Want It. Own It.</h2>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper" data-aos="fade-up"  data-aos-duration="1200">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/silicon-cup1.jpg" alt="Cup 1" class="w-full h-80 object-cover rounded-2xl" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/silicon-cup2.png" alt="Cup 2" class="w-full h-80 object-cover rounded-2xl" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/silicon-cup3.jpg" alt="Cup 3" class="w-full h-80 object-cover rounded-2xl" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/silicon-cup4.png" alt="Cup 4" class="w-full h-80 object-cover rounded-2xl" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/silicon-cup5.png" alt="Cup 5" class="w-full h-80 object-cover rounded-2xl" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/silicon-cup6.png" alt="Cup 6" class="w-full h-80 object-cover rounded-2xl" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/silicon-cup7.png" alt="Cup 7" class="w-full h-80 object-cover rounded-2xl" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/silicon-cup8.png" alt="Cup 8" class="w-full h-80 object-cover rounded-2xl" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- END OF PRODUCT GALLERY -->
+
+
+        <!-- CUSTOMISE SECTION -->
+        <div class="mt-20 bg-(--green-dark) py-13 px-8 lg:flex  lg:gap-10 flex-row-reverse lg:items-center"
+            id="customize">
+            <div class="lg:w-300 md:w-170 mx-auto" data-aos="fade-up"  data-aos-duration="1200"><img src="images/brandings.jpg" alt="customise"
+                    class="w-full rounded-xl"></div>
+            <div>
+
+                <div class="mt-12" data-aos="fade-up"  data-aos-duration="1200">
+                    <p class="text-left uppercase text-(--off-white)">Custom branding</p>
+                </div>
+                <div>
+                    <h2 class="font-header font-bold text-3xl text-(--off-white) pt-6" data-aos="fade-up"  data-aos-duration="1200">Make it yours.</h2>
+                    <p
+                        class="text-(--off-white) font-body  text-left text-[15px] pt-4 md:text-[17px] lg:text-[18px] lg:w-[90%]" data-aos="fade-up"  data-aos-duration="1200">
+                        Planning a wedding, corporate event, or building a product brand? We can print your logo or
+                        custom design directly on the cup lid. Perfect for souvenirs, merchandise, and brand
+                        activations.</p>
+                </div>
+                <div class="flex flex-wrap mt-6 gap-1 lg:w-[70%]">
+                    <div
+                        class="border border-(--off-white) bg-(--green-mid) flex items-center justify-center   text-sm rounded-3xl py-1 px-2 gap-2 mb-2" data-aos="fade-up"  data-aos-duration="1200">
+                        <i data-lucide="gem" class="w-5 h-5 text-(--green-muted)"></i>
+                        <p class="text-(--off-white)">Weddings & Events</p>
+                    </div>
+                    <div
+                        class="border border-(--off-white) bg-(--green-mid) flex items-center justify-center   text-sm rounded-3xl py-1 px-2 gap-2 mb-2" data-aos="fade-up"  data-aos-duration="1200">
+                        <i data-lucide="briefcase" class="w-5 h-5 text-(--green-muted)"></i>
+                        <p class="text-(--off-white)">Corporate Gifting</p>
+                    </div>
+                    <div
+                        class="border border-(--off-white) bg-(--green-mid) flex items-center justify-center   text-sm rounded-3xl py-1 px-2 gap-2 mb-2" data-aos="fade-up"  data-aos-duration="1200">
+                        <i data-lucide="store" class="w-5 h-5 text-(--green-muted)"></i>
+                        <p class="text-(--off-white)">Resellers</p>
+                    </div>
+                    <div
+                        class="border border-(--off-white) bg-(--green-mid) flex items-center justify-center   text-sm rounded-3xl py-1 px-2 gap-2 mb-2" data-aos="fade-up"  data-aos-duration="1200">
+                        <i data-lucide="graduation-cap" class="w-5 h-5 text-(--green-muted)"></i>
+                        <p class="text-(--off-white)">Graduations</p>
+                    </div>
+                    <div
+                        class="border border-(--off-white) bg-(--green-mid) flex items-center justify-center   text-sm rounded-3xl py-1 px-2 gap-2 mb-2" data-aos="fade-up"  data-aos-duration="1200">
+                        <i data-lucide="timer" class="w-5 h-5 text-(--green-muted)"></i>
+                        <p class="text-(--off-white)">Sports & Runs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF CUSTOMISE SECTION -->
+
+        <!-- READY TO ORDER -->
+        <div class="my-15 w-[80%] mx-auto lg:my-20" id="order">
+            <div class="bg-(--green-dark) rounded-2xl flex flex-col items-center gap-5 py-10 px-10" data-aos="fade-up"  data-aos-duration="1200">
+                <p class="text-3xl font-header text-(--off-white) font-black lg:text-5xl">Ready to order?</p>
+                <p class="text-3xl font-header text-(--off-white) font-black lg:text-5xl">Let's talk.</p>
+                <p class="text-center font-body text-(--off-white) lg:text-[18px]">10,000 units available. Delivery
+                    nationwide. Tap below to chat with us directly</p>
+                <div
+                    class="flex gap-2 items-center border border-(--green-muted) rounded-3xl py-3 px-5 bg-(--off-white) cursor-pointer">
+                    <i data-lucide="message-circle" class="w-5 h-5 text-(--green-dark)"></i>
+                    <a href="" class="text-lg text-(--green-dark) ">Chat us on whatsapp</a>
+                </div>
+            </div>
+        </div>
+
+        <footer
+            class="bg-(--green-dark) py-10 flex flex-col gap-4 items-center md:flex-row md:gap-0 md:items-center md:justify-between md:px-20">
+            <p class="font-header font-black text-(--off-white) text-2xl">ecoflex</p>
+            <p class="font-body text-(--text-light)">Eco-friendly Living, one cup at a time.</p>
+            <div class="flex items-center gap-2">
+                <i data-lucide="phone" class="w-4 h-4 text-(--text-light)"></i>
+                <p class="text-sm text-(--off-white)">+234 800 800 800</p>
+            </div>
+            <div class="flex items-center gap-2">
+                <i data-lucide="message-circle" class="w-4 h-4 text-(--text-light)"></i>
+                <p class="text-sm text-(--off-white)">Whatsapp Us</p>
+            </div>
+        </footer>
+
+        <!-- MY SCRIPTS -->
+        <script>lucide.createIcons();</script>
+
+        <script>
+            document.querySelectorAll('video').forEach(video => {
+                video.muted = true;
+                video.volume = 0;
+            });
+        </script>
+
+        <!-- MY SWIPER SCRIPT -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                effect: 'slide',
+                grabCursor: true,
+                slidesPerView: 1,
+                spaceBetween: 16,
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 24,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 32,
+                    }
+                }
+            });
+        </script>
+        <script src="js/main.js"></script>
+        <!-- END OF MY SWIPER SCRIPT -->
+
+
+         <!-- MY AOS SCRIPT -->
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init({
+                duration: 1200,
+                easing: 'ease-in-out-sine',
+            }
+            );
+          </script>
+</body>
+
+</html>

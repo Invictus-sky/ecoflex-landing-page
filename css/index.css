@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --green-dark:   #1B4D1B;  /* primary dark — headings, navbar, footer */
+  --green-mid:    #2D6A2D;  /* main brand green — buttons, accents */
+  --green-mid-rgb: 45, 106, 45; /* for rgba() */
+  --green-light:  #4CAF50;  /* highlights, badges, icons */
+  --green-pale:   #E8F5E9;  /* backgrounds, card fills */
+  --green-muted:  #C8E6C9;  /* borders, subtle text on dark bg */
+  --off-white:    #F9FDF9;  /* page background */
+  --white:        #FFFFFF;  /* cards, clean sections */
+  --text-dark:    #0F2B0F;  /* body text */
+  --text-mid:     #3A5A3A;  /* secondary text */
+  --text-light:   #6B8F6B;  /* captions, small text */
+}
+
+.font-header{
+     font-family: 'Cabinet Grotesk', sans-serif;
+}
+.font-body{
+    font-family: 'Synonym', sans-serif;
+}
+.numbers{
+  font-family: 'Playfair Display', serif;
+}
+.overlay{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+.glass-card{
+    background: var(--green-pale);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid var(--green-muted);
+    box-shadow: 0 0px 14px 7px var(--green-pale);
+}
+.box-shadow{
+     box-shadow: 0 0px 14px 5px rgba(0, 0, 0, 0.18);
+}
+.dot::before{
+    content: '.';
+    color: var(--green-dark);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    display: inline-block;
+}
+.clamp{
+    font-size: clamp(30px, 5vw, 72px);
+}
